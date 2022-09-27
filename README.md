@@ -1,7 +1,7 @@
 # PyGames
 This is a full-stack application completely hard coded using Python and tkinter that contains various card games for you to enjoy. Below is a list of the card games along with their status (not started, in progress, completed), as well as directions on how to run the application.
 ## Games Included
-- **Gridcannon** (Complete)
+- **Gridcannon** (Completed)
 - **Solitaire** (In Progress)
 - **Cuttle** (Not Started)
 - **Crazy Eights** (Not Started)
