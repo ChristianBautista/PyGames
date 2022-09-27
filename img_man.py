@@ -107,8 +107,6 @@ def armor(cards,path,living,o,b):
             '''
             armoredRoyal.paste(armor,((floor(i*H*wa) if o=="N" else floor(w-((i+1)*H*wa)) if o=="S" else floor(H*wa) if o=="E" else 0),\
                                       (floor(h-(i*S*ha)-(I*ha)) if o=="E" else floor((I*ha)+((i-1)*S*ha)) if o=="W" else floor(V*ha) if o=="S" else 0)))
-            # NOTE: debugging
-            armoredRoyal.save("Armor-Testing/AR.png")
     # add border to royal
     royal = ImageOps.expand(royal,border=(b if o=="W" else 0,b if o=="N" else 0,b if o=="E" else 0,b if o=="S" else 0),fill="white")
     # paste into final
