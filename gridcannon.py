@@ -619,7 +619,7 @@ def open_popup(prompt,func,args=None):
         # get all active buttons
         gi = [i for i in range(len(gridUI)) if gridUI[i]["state"]=="normal"]
         ri = [i for i in range(len(royalsUI)) if royalsUI[i]["state"]=="normal"]
-        bi = [i for i in range(2) if bottomUI[i*3]["state"]=="normal"]
+        bi = [(i*3) for i in range(2) if bottomUI[i*3]["state"]=="normal"]
         # disable all buttons
         activate([],[],[])
         # check if there is a function or not
