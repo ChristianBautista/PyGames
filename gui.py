@@ -185,7 +185,7 @@ def mainNoScroll():
     # full screen
     root.state("zoomed")
     # title
-    root.title("Captain's PyGames")
+    root.title("Christian's PyGames")
     # background color
     root.configure(background='black')
 
