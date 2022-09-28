@@ -83,7 +83,7 @@ def menu(root):
     # create menu frame
     menu = tk.Frame(root, bg='black')
     # create title label with Magneto font
-    title = tk.Label(menu, text="Captain's PyGames", font=("Magneto", 50), bg='black', fg='green')
+    title = tk.Label(menu, text="Christian's PyGames", font=("Magneto", 50), bg='black', fg='green')
     # get colmax
     m = colmax()
     # add title label to grid
