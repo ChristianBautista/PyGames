@@ -15,5 +15,5 @@ This is a full-stack application completely hard coded using Python and tkinter 
 ## Running the App
 1. Download the ZIP file from this repository.
 2. Extract the contents of the ZIP file into a directory.
-3. Open up the command prompt and navigate to the aforementioned directory.
-4. Type in `python gui.py` to start the app.
+3. Navigate to the directory of the extracted content.
+4. Double-click the file titled `PyGames.exe`
